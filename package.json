@@ -1,0 +1,27 @@
+{
+  "name": "perepyski",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaaaaaaaa2222334/perepyski.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaaaaaaaa2222334/perepyski/issues"
+  },
+  "homepage": "https://github.com/aaaaaaaaa2222334/perepyski#readme",
+  "dependencies": {
+    "soket.io": "^0.0.1-security",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
