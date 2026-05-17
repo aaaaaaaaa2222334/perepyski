@@ -4,26 +4,32 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon server"
-
-    
+    "start": "node server"
   },
+  "engines": {
+    "node": "14.x"
+  },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aaaaaaaaa2222334/perepyski.git"
   },
+
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/aaaaaaaaa2222334/perepyski/issues"
   },
+
   "homepage": "https://github.com/aaaaaaaaa2222334/perepyski#readme",
   "dependencies": {
-    "soket.io": "^0.0.1-security",
+    "cookie": "^1.1.1",
+    "crypto": "^1.0.1",
+    "socket.io": "^4.8.3",
     "sqlite": "^5.1.1",
-    "sqlite3": "^5.1.7"
+    "sqlite3": "^6.0.1"
   },
+  
   "devDependencies": {
     "nodemon": "^3.1.14"
   }

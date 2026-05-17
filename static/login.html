@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>popoChat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header class="header">
+      <h1>popoChat</h1>
+      <a class="link" href="/register">Register</a>
+    </header>
+
+    <form class="register-form" id="login-form">
+      <div class="register-form__container">
+        <h1 class="register-form__title">Login Page</h1>
+        <label for="login" class="register-form__label">Логін</label>
+        <input type="text" id="login" name="login" class="register-form__input" placeholder="Логін">
+
+        <label for="password" class="register-form__label">Пароль</label>
+        <input type="password" id="password" name="password" class="register-form__input" placeholder="Пароль">
+
+        <button type="submit" class="register-form__button">Submit</button>
+      </div>
+    </form>
+  </main>
+</body>
+
+<script src="https://cdn.socket.io/4.5.3/socket.io.min.js"
+        integrity="sha384-WPFUVhKB1aHASTDSZi6xtDgkF0wXJcIIxXhC6h80T8EH3fC5PWro5pWJITHjCfE1"
+        crossorigin="anonymous"></script>
+<script src="auth.js"></script>
+</html>
